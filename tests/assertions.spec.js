@@ -48,3 +48,6 @@ test("Assertions Test", async ({ page }) => {
   const options = page.locator("#customerCurrency option");
   await expect(options).toHaveCount(2);
 });
+
+
+

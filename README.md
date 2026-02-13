@@ -22,6 +22,7 @@ I am learning Playwright by following the **official Playwright documentation** 
 - Handling multiple elements
 - Extracting text from elements
 - Understanding auto-waiting and timing issues
+- Assertions (hard & soft)
 
 ---
 # 🚀 How to Run the Tests

@@ -9,9 +9,7 @@ test("Handle Input Box", async ({ page }) => {
   await expect(page.locator("#male")).toBeChecked();
   await expect(page.locator("#male").isChecked()).toBeTruthy();
 
-
-  await expect(await page.locator('#female').isChecked()).toBeFalsy();
-
+  await expect(await page.locator("#female").isChecked()).toBeFalsy();
 
   await page.waitForTimeout(5000);
 });

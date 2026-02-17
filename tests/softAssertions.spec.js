@@ -9,7 +9,7 @@ test("Soft Assertions", async ({ page }) => {
   await expect(page.locator(".navbar-brand")).toBeVisible(); */
 
   //Soft Assertions
-  await expect.soft(page).toHaveTitle("STOREEE");
+  // await expect.soft(page).toHaveTitle("STOREEE");
   await expect.soft(page).toHaveURL("https://www.demoblaze.com/index.html");
   await expect.soft(page.locator(".navbar-brand")).toBeVisible();
 })

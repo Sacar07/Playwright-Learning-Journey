@@ -26,11 +26,11 @@ test("Handle Bootstrap Multi Select Dropdown", async ({ page }) => {
   } */
 
   //4 unselect option
-  const options = await page.$$("ul>li");
+  const options = await page.$$("ul>li:visible");
   for (let option of options) {
     const value = await option.textContent();
     // console.log("value is", value);
-    if (value.includes("California") || value.includes("Pennyslavia")) {
+    if (value.includes("California") || value.includes("Pennsylvania")) {
       await option.click();
     }
   }

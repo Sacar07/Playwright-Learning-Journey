@@ -23,6 +23,11 @@ I am learning Playwright by following the **official Playwright documentation** 
 - Extracting text from elements
 - Understanding auto-waiting and timing issues
 - Assertions (hard & soft)
+- Handling Input Box & Radio Buttons
+- Handling Checkboxes
+- Handling Dropdowns
+- Handling Multi Select Dropdown
+- Handling Bootstrap Multi Select Dropdown 
 
 ---
 # 🚀 How to Run the Tests

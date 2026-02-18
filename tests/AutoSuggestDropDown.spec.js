@@ -4,7 +4,9 @@ test("Auto Suggest Dropdown", async ({ page }) => {
   await page.goto("https://www.daraz.com.np/");
 
   await page.locator("#q").fill("Nike");
-  await page.waitForSelector("//div[@class='suggest-list--3Tm8']//a/div/span");
+  await page.waitForSelector("//div[@class='suggest-list--3Tm8']//a/div/span", {
+    timeout: 60000,
+  });
 
   const searchOptions = await page.$$(
     "//div[@class='suggest-list--3Tm8']//a/div/span",

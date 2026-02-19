@@ -32,6 +32,8 @@ I am learning Playwright by following the **official Playwright documentation** 
 - Handling Hidden Items in Dropdown
 - Handling Dialogs or Alerts
 - Handling Frames/iFrames
+- Handling Nested iFrames
+- Handling Pagination table
 
 ---
 # 🚀 How to Run the Tests

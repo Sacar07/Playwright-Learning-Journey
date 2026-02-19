@@ -27,7 +27,11 @@ I am learning Playwright by following the **official Playwright documentation** 
 - Handling Checkboxes
 - Handling Dropdowns
 - Handling Multi Select Dropdown
-- Handling Bootstrap Multi Select Dropdown 
+- Handling Bootstrap Multi Select Dropdown
+- Handling Auto Suggestion Dropdown
+- Handling Hidden Items in Dropdown
+- Handling Dialogs or Alerts
+- Handling Frames/iFrames
 
 ---
 # 🚀 How to Run the Tests

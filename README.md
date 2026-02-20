@@ -22,18 +22,16 @@ I am learning Playwright by following the **official Playwright documentation** 
 - Handling multiple elements
 - Extracting text from elements
 - Understanding auto-waiting and timing issues
-- Assertions (hard & soft)
-- Handling Input Box & Radio Buttons
-- Handling Checkboxes
-- Handling Dropdowns
-- Handling Multi Select Dropdown
-- Handling Bootstrap Multi Select Dropdown
-- Handling Auto Suggestion Dropdown
-- Handling Hidden Items in Dropdown
+- Assertions (hard vs soft)
+- Handling Input Box, Radio Buttons, Checkboxes
+- Handling Dropdowns, Multi Select Dropdown & Bootstrap Multi Select Dropdown
+- Handling Auto Suggestion & Hidden Items in Dropdown
 - Handling Dialogs or Alerts
-- Handling Frames/iFrames
-- Handling Nested iFrames
+- Handling Frames/iFrames & Nested iFrames
 - Handling Pagination table
+- Handling Datepickers/Calenders
+- Performing Mouse Hover, Right click/context click, Double click, Drag & drop Actions
+
 
 ---
 # 🚀 How to Run the Tests

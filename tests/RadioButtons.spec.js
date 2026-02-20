@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("Handle Input Box", async ({ page }) => {
+test("Handle Radio Buttons", async ({ page }) => {
   await page.goto("https://testautomationpractice.blogspot.com/");
 
   //Radio Button --- Gender

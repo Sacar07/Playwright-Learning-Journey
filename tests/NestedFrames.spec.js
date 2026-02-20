@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("Frames", async ({ page }) => {
+test("Nested Frames", async ({ page }) => {
   await page.goto("https://ui.vision/demo/webtest/frames/");
 
   const frame3 = await page.frame({

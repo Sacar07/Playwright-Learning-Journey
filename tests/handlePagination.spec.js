@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 
-test("Frames", async ({ page }) => {
+test("Handle Pagination", async ({ page }) => {
   await page.goto("https://testautomationpractice.blogspot.com/");
 
   const table = await page.locator("#productTable");
@@ -64,7 +64,7 @@ test("Frames", async ({ page }) => {
 async function selectProducts(rows, page, name) {
   const matchedRow = rows.filter({
     has: page.locator("td"), //filter the entire tr
-    hasText: name, // that contains text "Smartwatch" **hasText alone can work too
+    hasText: name, // that contains text "Smartwatch" ***hasText alone can work too***
   });
 
   await matchedRow.locator("input").check();

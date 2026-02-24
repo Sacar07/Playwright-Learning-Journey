@@ -31,6 +31,8 @@ I am learning Playwright by following the **official Playwright documentation** 
 - Handling Pagination table
 - Handling Datepickers/Calenders
 - Performing Mouse Hover, Right click/context click, Double click, Drag & drop Actions
+- Performing Keyboard Actions
+- Handling single and multiple files upload 
 
 
 ---
